@@ -100,9 +100,9 @@ class PhpBasicCest
         $I->amOnPage('/209.php');
         $I->see('Posa les variables hora, minut i segon pel QueryString');
         $I->amOnPage('/209.php?hora=22&minut=59&segon=59');
-        $I->see('23:0:0');
+        $I->see('23:00:00');
         $I->amOnPage('/209.php?hora=7&minut=58&segon=59');
-        $I->see('7:59:0');
+        $I->see('7:59:00');
     }
     /*
     public function try212WorksTest(AcceptanceTester $I)
