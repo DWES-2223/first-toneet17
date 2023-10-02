@@ -84,7 +84,7 @@ class FunctionsTest extends \Codeception\Test\Unit
         $this->assertEquals(16600,euro2pesetes(100));
     }
 
-    /*
+    
     public function test250frasesImparelles(){
         $this->assertEquals('hola',frasesImparelles('haollaa'));
     }
@@ -125,6 +125,6 @@ class FunctionsTest extends \Codeception\Test\Unit
         $this->assertNotContains(3,parells([1,2,3,4,5]));
         $this->assertNotContains(6,parells([1,2,3,4,5]));
     }
-    */
+    
 
 }

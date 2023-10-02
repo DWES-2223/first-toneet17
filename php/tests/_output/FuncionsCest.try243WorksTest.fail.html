@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversió entre Pessetes i Euros</title>
+</head>
+<body>
+    <h1>Conversió entre Pessetes i Euros</h1>
+    
+    <form method="post" action="/243.php"> <!-- Agregamos action="/243.php" para indicar la página de destino -->
+        <label>Quantitat:</label>
+        <input type="number" name="quantitat" required step="any">
+        <br>
+        <label>Conversió:</label>
+        <select name="conversio" required>
+            <option value="peseta2euros">Pessetes a Euros</option>
+            <option value="euro2pesetes">Euros a Pessetes</option>
+        </select>
+        <br>
+        <button type="submit">Calcular</button>
+    </form>
+
+    
+</body>
+</html>
