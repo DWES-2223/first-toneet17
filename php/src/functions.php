@@ -115,10 +115,8 @@ function vell($fechas){
 
 function laureado($valores){
     $conteoValores = array_count_values($valores);
-    arsort($conteoValores);
-    $valorMasFrecuente = reset($conteoValores);
-    $valoresMasFrecuentes = array_keys($conteoValores, $valorMasFrecuente);
-    return $valoresMasFrecuentes[0];
+    asort($conteoValores);
+    return array_key_last($conteoValores);
 }
 
 function any($fecha){

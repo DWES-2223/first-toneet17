@@ -1,4 +1,3 @@
-<body>
 <table>
         <thead>
         <!-- Capçalera de la taula --> <tr><th>Prova</th>
